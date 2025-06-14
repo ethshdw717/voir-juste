@@ -251,8 +251,7 @@
       let body = document.querySelector("body");
       let count = 0;
       burger.addEventListener("click", () => {
-        console.log(count++);
-
+        count++;
         if (count % 2 === 1) {
           burger.classList.add("active");
           container.classList.add("active__container");
